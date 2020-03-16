@@ -2,8 +2,7 @@
 open System
 
 let abelar x = (x > 12 && x < 3097 && x%12=0 )
-
-
+//changes 
 let area b h =
    match (b >= 0.0) && (h >= 0.0) with
    | true -> 0.5*b*h
