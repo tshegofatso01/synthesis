@@ -8,7 +8,6 @@ let area b h =
    | true -> 0.5*b*h
    | false -> failwith("Can't handle negative values")
     
-//tessst
 let zollo a =
    match a > 0 with
    | true -> a*2
